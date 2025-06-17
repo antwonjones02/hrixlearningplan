@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HRIX Learning Team Transition Plan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Base styles for the entire document */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light grey background */
+        }
+        /* A4-like page container */
+        .page-container {
+            max-width: 8.5in;
+            min-height: 11in;
+            margin: 2rem auto;
+            padding: 0.75in;
+            background: white;
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+            border: 1px solid #e5e7eb;
+        }
+        
+        /* Print-specific styles to ensure proper rendering */
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+                background-color: white;
+            }
+            .page-container {
+                margin: 0;
+                padding: 0.5in;
+                box-shadow: none;
+                border: none;
+            }
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <div class="page-container">
+        <!-- Header Section -->
+        <header class="border-b-4 border-blue-800 pb-4 mb-8">
+            <h1 class="text-3xl font-extrabold text-gray-900">HRIX Learning Team Transition Plan</h1>
+            <p class="text-lg font-semibold text-blue-800">Knowledge Transfer & Team Resiliency Initiative</p>
+            <p class="text-sm text-gray-500 mt-2">Date: June 16, 2025 | CONFIDENTIAL</p>
+        </header>
+
+        <!-- Executive Summary Section -->
+        <section id="executive-summary" class="mb-10">
+            <div class="bg-blue-50 border-l-4 border-blue-700 p-6 rounded-r-lg">
+                <h2 class="text-xl font-bold text-gray-900 mb-2 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-3 text-blue-700"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path><path d="m9 12 2 2 4-4"></path></svg>
+                    Executive Summary: The Imperative
+                </h2>
+                <p class="text-gray-700 mb-3">
+                    <strong>Situation:</strong> SysOps Learning team faces an operational challenges due to the departure of two key personnel, Mark Bernardo (departed June 16) and Alex Churin (departing August 29). This is a cumulative loss of <strong>16 years of Delta Learning specific knowledge</strong> over a 74-day period.
+                </p>
+                <p class="text-gray-700 mb-3">
+                    <strong>Strategic Response:</strong> We have initiated an emergency <strong>74-Day Knowledge Preservation Sprint</strong>. The primary objective is to achieve full operational independence *before* the August 29 deadline, mitigating business continuity risks and building a cross-trained team structure.
+                </p>
+                 <p class="font-semibold text-gray-800">
+                    <strong>Bottom Line:</strong> The timeline is aggressive, but the mitigation plan is solid. Swift action and leadership support are critical to avoiding operational disruption.
+                </p>
+            </div>
+        </section>
+
+        <!-- Key Risk: Call-to-Action Box -->
+        <section id="key-risk" class="mb-10">
+             <div class="bg-red-50 border-l-4 border-red-700 p-6 rounded-r-lg">
+                <h2 class="text-xl font-bold text-red-800 mb-3 flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-3"><path d="m21.73 18-8-14a2 2 0 0 0-3.46 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>
+                    CRITICAL ACTION REQUIRED: The 74-Day Countdown
+                </h2>
+                <div class="grid md:grid-cols-3 gap-6 text-center">
+                    <div class="bg-white p-4 rounded-lg border border-red-200">
+                        <p class="text-3xl font-extrabold text-red-700">16 Years</p>
+                        <p class="text-sm font-semibold text-gray-700">Total Expertise Lost</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg border border-red-200">
+                        <p class="text-3xl font-extrabold text-red-700">74 Days</p>
+                        <p class="text-sm font-semibold text-gray-700">Window to Mitigate Risk</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg border border-red-200">
+                        <p class="text-3xl font-extrabold text-red-700">August 29</p>
+                        <p class="text-sm font-semibold text-gray-700">Hard Deadline for Independence</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Readiness Assessment (IMPROVED) -->
+        <section id="team-readiness" class="mb-10">
+            <h2 class="text-xl font-bold text-gray-900 mb-4 border-b-2 border-gray-300 pb-2">Team Assessment & Immediate Gaps</h2>
+            <div class="space-y-4">
+
+                <!-- Card: Antwon Jones -->
+                <div class="bg-white p-4 rounded-lg border-l-4 border-green-500 shadow-sm flex flex-col sm:flex-row sm:items-center sm:justify-between">
+                    <div class="mb-3 sm:mb-0">
+                        <p class="font-bold text-gray-900">Antwon Jones <span class="ml-2 text-sm font-normal text-gray-500">Manager</span></p>
+                        <p class="mt-1 text-sm text-gray-700">Strategic oversight, stakeholder management, and crisis lead.</p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <div class="inline-flex items-center px-3 py-1 bg-green-100 text-green-800 text-xs font-bold rounded-full">
+                            <span class="w-2 h-2 bg-green-500 rounded-full mr-2"></span>STABLE
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card: Mark Bernardo -->
+                <div class="bg-red-50 p-4 rounded-lg border-l-4 border-red-600 shadow-sm flex flex-col sm:flex-row sm:items-center sm:justify-between">
+                    <div class="mb-3 sm:mb-0">
+                         <p class="font-bold text-gray-900"><strike>Mark Bernardo</strike> <span class="ml-2 text-sm font-normal text-gray-500">Super Admin (Former)</span></p>
+                        <p class="mt-1 text-sm text-red-700 font-semibold">EXPOSURE: 10-year knowledge gap (PRD, Compliance, Vendor History).</p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <div class="inline-flex items-center px-3 py-1 bg-red-100 text-red-800 text-xs font-bold rounded-full">
+                            <span class="w-2 h-2 bg-red-600 rounded-full mr-2"></span>DEPARTED
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card: Alex Churin -->
+                <div class="bg-amber-50 p-4 rounded-lg border-l-4 border-amber-500 shadow-sm flex flex-col sm:flex-row sm:items-center sm:justify-between">
+                    <div class="mb-3 sm:mb-0">
+                        <p class="font-bold text-gray-900">Alex Churin <span class="ml-2 text-sm font-normal text-gray-500">Super Admin (Contractor)</span></p>
+                        <p class="mt-1 text-sm text-amber-800 font-semibold">EXPOSURE: Single point of failure; critical knowledge transfer source.</p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <div class="inline-flex items-center px-3 py-1 bg-amber-100 text-amber-800 text-xs font-bold rounded-full">
+                           <span class="w-2 h-2 bg-amber-500 rounded-full mr-2"></span>DEPARTING AUG 29
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card: New Hire -->
+                 <div class="bg-red-50 p-4 rounded-lg border-l-4 border-red-600 shadow-sm flex flex-col sm:flex-row sm:items-center sm:justify-between">
+                    <div class="mb-3 sm:mb-0">
+                        <p class="font-bold text-gray-900">[TBD - Recruiting] <span class="ml-2 text-sm font-normal text-gray-500">Super Admin (Future)</span></p>
+                        <p class="mt-1 text-sm text-red-700 font-semibold">ACTION: Must be onboarded by July 14 to ensure knowledge overlap.</p>
+                    </div>
+                    <div class="flex-shrink-0">
+                        <div class="inline-flex items-center px-3 py-1 bg-red-100 text-red-800 text-xs font-bold rounded-full">
+                           <span class="w-2 h-2 bg-red-600 rounded-full mr-2"></span>URGENT HIRE
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card: Melodie -->
+                <div class="bg-white p-4 rounded-lg border-l-4 border-blue-500 shadow-sm flex flex-col sm:flex-row sm:items-center sm:justify-between">
+                    <div class="mb-3 sm:mb-0">
+                        <p class="font-bold text-gray-900">Melodie <span class="ml-2 text-sm font-normal text-gray-500">LMS Operations (Contractor)</span></p>
+                        <p class="mt-1 text-sm text-gray-700">Upskilling for advanced analytics and absorbing tier 2 support tasks.</p>
+                    </div>
+                     <div class="flex-shrink-0">
+                        <div class="inline-flex items-center px-3 py-1 bg-blue-100 text-blue-800 text-xs font-bold rounded-full">
+                            <span class="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>DEVELOPING
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card: Kelly -->
+                <div class="bg-white p-4 rounded-lg border-l-4 border-blue-500 shadow-sm flex flex-col sm:flex-row sm:items-center sm:justify-between">
+                    <div class="mb-3 sm:mb-0">
+                        <p class="font-bold text-gray-900">Kelly <span class="ml-2 text-sm font-normal text-gray-500">Mobile/Projects (Contractor)</span></p>
+                        <p class="mt-1 text-sm text-gray-700">Absorbing project operations and primary ticketing functions.</p>
+                    </div>
+                     <div class="flex-shrink-0">
+                        <div class="inline-flex items-center px-3 py-1 bg-blue-100 text-blue-800 text-xs font-bold rounded-full">
+                            <span class="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>DEVELOPING
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Risk & Mitigation -->
+        <section id="risk-mitigation" class="mb-10">
+             <h2 class="text-xl font-bold text-gray-900 mb-4 border-b-2 border-gray-300 pb-2">Risk Analysis & Strategic Countermeasures</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Risks -->
+                <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                    <h3 class="font-bold text-red-700 mb-3">Identified Risks</h3>
+                    <ul class="space-y-3 text-sm list-disc list-inside text-gray-800">
+                        <li><strong>Stressed Bandwidth & Burnout:</strong> Losing 3 resources shrinks our current limited bandwidth until new hire is up to speed.</li>
+                        <li><strong>Tight Deadline:</strong> There isn't much time to transfer all the needed knowledge before Alex leaves.</li>
+                        <li><strong>Risk to Daily Work:</strong> Important reports and vendor tasks could be missed after Alex’s last day.</li>
+                        <li><strong>Hiring Delays:</strong> If we don't hire someone by July 14, the entire plan is at risk.</li>
+                        <li><strong>Training Overload:</strong> Melodie is new and needs a lot of training, which could be stressful.</li>
+                    </ul>
+                </div>
+                <!-- Mitigations -->
+                <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                    <h3 class="font-bold text-green-700 mb-3">Mitigation Plan</h3>
+                    <ul class="space-y-3 text-sm list-disc list-inside text-gray-800">
+                        <li><strong>Fast-Track Hiring:</strong> Speed up the hiring process for the new person with HR's help.</li>
+                        <li><strong>Focused Knowledge Transfer:</strong> Hold daily training sessions with Alex to capture the most important info.</li>
+                        <li><strong>Share the Workload:</strong> Move some of Alex's tasks to other team members to free him up.</li>
+                        <li><strong>Have a Backup Plan:</strong> Line up extra help from HRIT and our vendors just in case.</li>
+                        <li><strong>Support for Melodie:</strong> Provide direct training and mentorship from Alex and Antwon to help her learn quickly.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- KPIs -->
+        <section id="kpis" class="mb-10">
+            <h2 class="text-xl font-bold text-gray-900 mb-4 border-b-2 border-gray-300 pb-2">Key Performance Indicators (KPIs) for Success</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                 <div>
+                    <h3 class="font-semibold text-gray-800 mb-2">30-Day Targets (by July 16)</h3>
+                    <ul class="space-y-2 text-sm list-disc list-inside text-gray-700">
+                        <li><strong>KPI:</strong> New Super Admin hired and onboarded.</li>
+                        <li><strong>KPI:</strong> 50% of critical knowledge documented.</li>
+                        <li><strong>KPI:</strong> Zero critical failures in departed admin's areas of responsibility.</li>
+                        <li><strong>KPI:</strong> Transition plan drafted and reviewed.</li>
+                        <li><strong>KPI:</strong> Mark's files updated and accessible in OneDrive.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-gray-800 mb-2">74-Day Final Objectives (by August 29)</h3>
+                    <ul class="space-y-2 text-sm list-disc list-inside text-gray-700">
+                        <li class="font-bold text-blue-800"><strong>KPI:</strong> 100% operational independence from departing employees.</li>
+                        <li><strong>KPI:</strong> New hire achieves 80% competency in core functions.</li>
+                        <li><strong>KPI:</strong> All vendor relationships successfully transferred to permanent staff.</li>
+                         <li><strong>KPI:</strong> Cross-training matrix for critical tasks established and implemented.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Timeline Section -->
+        <section id="timeline">
+             <h2 class="text-xl font-bold text-gray-900 mb-6 border-b-2 border-gray-300 pb-2">Timeline & Milestones</h2>
+             <div class="relative border-l-2 border-gray-300 ml-3">
+                 <!-- Phase 1 -->
+                 <div class="mb-8 ml-8">
+                    <div class="absolute w-6 h-6 bg-blue-700 rounded-full -left-3.5 border-4 border-white"></div>
+                    <h3 class="text-lg font-bold text-blue-800">Phase 1: Crisis Response & Stabilization</h3>
+                    <p class="text-sm font-semibold text-gray-500 mb-2">Week 1-4 (June 16 - July 13)</p>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                        <li><strong>Action:</strong> Immediately accelerate Super Admin recruitment.</li>
+                        <li><strong>Action:</strong> Backup Mark's files to OneDrive.</li>
+                        <li><strong>Action:</strong> Record KT sessions with Mark, Alex, and Pratap.</li>
+                        <li><strong>Action:</strong> Begin intensive daily knowledge capture sessions with Alex.</li>
+                        <li><strong>Action:</strong> Connect Melodie with Alex for admin training.</li>
+                        <li><strong>Action:</strong> Include Melodie in bi-weekly meetings.</li>
+                        <li><strong>Action:</strong> Identify Mission Critical Reports.</li>
+                        <li><strong>Action:</strong> Submit intake for changing LMS PRD report feed to EDW.</li>
+                        <li><strong>Milestone:</strong> Select and extend offer to new hire.</li>
+                    </ul>
+                 </div>
+                 <!-- Phase 2 -->
+                 <div class="mb-8 ml-8">
+                     <div class="absolute w-6 h-6 bg-blue-700 rounded-full -left-3.5 border-4 border-white"></div>
+                    <h3 class="text-lg font-bold text-blue-800">Phase 2: Critical Knowledge Overlap</h3>
+                    <p class="text-sm font-semibold text-gray-500 mb-2">Week 5-10 (July 14 - Aug 28)</p>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                        <li><strong>Action:</strong> Onboard new hire and begin structured shadowing of Alex.</li>
+                        <li><strong>Action:</strong> Execute vendor relationship handoffs.</li>
+                        <li><strong>Milestone:</strong> New hire independently manages 50% of core tasks.</li>
+                        <li><strong>Milestone:</strong> New Hire to take over bi-weekly meetings.</li>
+                    </ul>
+                 </div>
+                 <!-- Deadline -->
+                 <div class="ml-8">
+                    <div class="absolute w-6 h-6 bg-red-700 rounded-full -left-3.5 border-4 border-white"></div>
+                    <h3 class="text-lg font-bold text-red-800">DEADLINE: Operational Independence</h3>
+                    <p class="text-sm font-semibold text-gray-500 mb-2">August 29, 2025</p>
+                    <ul class="list-disc list-inside text-sm text-gray-700 space-y-1">
+                        <li><strong>Milestone:</strong> Full operational independence achieved.</li>
+                        <li><strong>Milestone:</strong> Alex Churin's final day; seamless transition complete.</li>
+                    </ul>
+                 </div>
+             </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-12 pt-4 text-xs text-center text-gray-500 border-t">
+            <p><strong>Lead:</strong> Antwon Jones | <strong>Status:</strong> <span class="font-bold text-green-600">ON TRACK</span></p>
+            <p>This document is confidential and intended for internal discussion purposes only.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
